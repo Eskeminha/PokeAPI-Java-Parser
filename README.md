@@ -34,4 +34,21 @@ This repository contains the Java implementation of the PokeAPI Parser. It is de
 Clone the repository using:
 
 ```bash
-git clone https://github.com/eskeminha/PokeAPI-Parser-Java.git
+git clone https://github.com/yourusername/PokeAPI-Parser-Java.git
+```
+
+### Running the Application
+
+Navigate to the project directory and compile:
+
+```
+javac PokeAPIParser.java
+java PokeAPIParser
+```
+
+### Contributing
+
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please ensure to update tests as appropriate.
+
+### License
+This project is open source and available under the MIT License.
