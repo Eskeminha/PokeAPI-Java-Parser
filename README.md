@@ -1,6 +1,7 @@
 # PokeAPI Parser - Java
 
 This repository contains the Java implementation of the PokeAPI Parser. It is designed to fetch and parse data from PokeAPI, focusing on various details about Pokémon such as their names, numbers, abilities, and more.
+It is important to note that this project was developed primarily as an educational exercise and may not exhibit the polish of a fully developed production-grade application.
 
 ## Features
 
@@ -8,12 +9,10 @@ This repository contains the Java implementation of the PokeAPI Parser. It is de
   - Search by Pokémon Name
   - Search by Pokémon Number
   - Show details about Pokémon including:
-    - Full Name and Number
-    - Sprites
+    - Full Name
+    - PokeDex Number
     - Generation
-    - Evolutions
-    - Average Weight
-    - Abilities
+    
 
 ## Future Upgrades
 
@@ -21,6 +20,11 @@ This repository contains the Java implementation of the PokeAPI Parser. It is de
 - Search items
 - Explore additional endpoints offered by PokeAPI
 - Enable DEV mode via `String args[]` to show the request URL used to obtain JSON
+- Include:
+    - Evolutions
+    - Average Weight
+    - Abilities
+    - Sprites
 
 ## Getting Started
 
@@ -42,8 +46,8 @@ git clone https://github.com/yourusername/PokeAPI-Parser-Java.git
 Navigate to the project directory and compile:
 
 ```
-javac PokeAPIParser.java
-java PokeAPIParser
+javac Main.java
+java Main
 ```
 
 ### Contributing
